@@ -23,7 +23,7 @@ function SearchMovies() {
   return (
     <div>
       <input
-        className='font-mono p-1 border-solid border-gray-700 border-2 rounded-xl w-40'
+        className='font-mono p-1 border-solid border-gray-700 border-2 rounded-xl w-40 sm:w-56 sm:p-3 sm:text-2xl lg:w-[100%] lg:p-5'
         type="text"
         placeholder="Busca una pelicula..."
         onChange={(e) => debouncedSearch(e.target.value)}

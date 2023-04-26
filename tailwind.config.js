@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: ['class', '[data-mode="dark"]'],
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -39,6 +40,9 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
+    
   },
+
+  
   plugins: [],
 }
